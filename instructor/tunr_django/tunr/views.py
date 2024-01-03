@@ -114,6 +114,6 @@ class SongDetail(generics.RetrieveUpdateDestroyAPIView):
 #     return render(request, 'song_form.html', {'form': form})
 
 # def song_delete(_, pk):
-    song = Song.objects.get(id=pk)
-    song.delete()
-    return redirect('song_list')
+  # song = Song.objects.get(id=pk)
+  # song.delete()
+  # return redirect('song_list')

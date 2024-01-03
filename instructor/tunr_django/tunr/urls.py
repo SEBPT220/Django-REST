@@ -17,8 +17,8 @@ urlpatterns = [
   path('artists/<int:pk>', views.ArtistDetail.as_view(), name='artist_detail')
 ,
   # SONG ROUTES
-  path('songs/', views.SongList.as_view(), name='songs_list'),
-  path('songs/<int:pk>', views.SongDetail.as_view(), name='songs_detail')
+  path('songs/', views.SongList.as_view(), name='song_list'),
+  path('songs/<int:pk>', views.SongDetail.as_view(), name='song_detail')
 
   # path('songs/', views.song_list, name='song_list'),
   # path('songs/new', views.song_create, name='song_create',),
